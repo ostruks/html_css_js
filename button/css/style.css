@@ -1,0 +1,131 @@
+@font-face{
+    font-family: MyWebFont1;
+    src: local("18392"),
+        url(../fonts/18392.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: MyWebFont2;
+    src: local("18393"),
+        url(../fonts/18393.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: MyWebFont3;
+    src: local("18365"),
+        url(../fonts/18365.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: MyWebFont4;
+    src: local("18290"),
+        url(../fonts/18290.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: MyWebFont5;
+    src: local("18158"),
+        url(../fonts/18158.ttf);
+    font-weight: bold;
+}
+
+.font1{
+    font-family: "MyWebFont1";
+}
+
+.font2{
+    font-family: "MyWebFont2";
+}
+
+.font3{
+    font-family: "MyWebFont3";
+}
+
+.font4{
+    font-family: "MyWebFont4";
+}
+
+.font5{
+    font-family: "MyWebFont5";
+}
+
+.button{
+    border-radius: 15px;
+    border: 2px double rgb(255, 255, 255, 0.7);;
+    padding: 5px 30px;
+    box-shadow: 0 0 4px 1px rgb(206, 206, 206);
+    background: linear-gradient(to bottom, rgb(243, 157, 198) 0%, rgba(255,222,245,1) 50%, rgb(243, 157, 198) 100%);
+    cursor: pointer;
+    outline: none;
+}
+
+.button:active{
+    background: linear-gradient(to bottom, rgb(160, 243, 157) 0%, rgba(255,222,245,1) 50%, rgb(160, 243, 157) 100%);
+}
+
+.button:hover{
+    box-shadow: 0 0 4px 5px rgb(206, 206, 206);
+}
+
+li.peaks::before {
+    content: "\2660";
+}
+
+li.clovers::before {
+    content: "\2663";
+}
+
+li.tiles::before {
+    content: "\2666";
+    color: red;
+}
+
+li.hearts::before {
+    content: "\2665";
+    color: red;
+}
+
+#site{
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.fixed-block{
+    width: 600px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px 30px;
+    position: fixed;
+    top: 5%;
+    left: 35%;
+}
+
+.menu a {
+    display: inline;
+    outline: none;
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 15px;
+    border: 2px double rgb(255, 255, 255, 0.7);;
+    padding: 5px 30px;
+    box-shadow: 0 0 4px 1px rgb(206, 206, 206);
+    background: linear-gradient(to bottom, rgb(243, 157, 198) 0%, rgba(255,222,245,1) 50%, rgb(243, 157, 198) 100%);
+}
+
+.menu a:active{
+    box-shadow: 0 0 4px 5px rgb(206, 206, 206);
+}
+
+.menu a:hover {
+    background: linear-gradient(to bottom, rgb(160, 243, 157) 0%, rgba(255,222,245,1) 50%, rgb(160, 243, 157) 100%);
+}
